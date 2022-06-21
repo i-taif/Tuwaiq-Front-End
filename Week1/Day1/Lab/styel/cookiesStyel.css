@@ -1,0 +1,13 @@
+body{
+    background-color: #FFE;
+    color: #887;
+    border-style: solid;
+}
+link{
+    color: #900;
+}
+
+.imgDisplay{
+    background-image: url('cookies.jpg');
+
+}

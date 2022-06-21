@@ -1,0 +1,44 @@
+h1,h2{
+  text-align: center;
+  background-color : orange;
+}
+
+p{
+    color: #800000;
+    font-family: 'Times New Roman', ;
+}
+
+h3{
+    color: chocolate;
+}
+
+a:hover{
+  color: red;
+}
+a:visited{
+  color: gray;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+body{
+    margin: 2%;
+}
+
+th{
+  color: red;
+  text-align: center;
+}
+
+td{
+  color: purple;
+}
+
+.cent {
+  margin-left: auto;
+  margin-right: auto;
+}

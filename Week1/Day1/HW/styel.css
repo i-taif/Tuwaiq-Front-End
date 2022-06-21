@@ -1,0 +1,58 @@
+h1, body, html, main {
+    margin: 0;
+  }
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+
+section{      
+    background-image: url("images/soup.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    color: aliceblue;
+    font-size: 2.5rem;
+    text-align: center;
+    height: 100vh;
+   }
+
+.p1{
+    text-align:left;
+    font-size: 26px;
+    color:rgb(69, 68, 68);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.icon{
+    text-align: center;
+    font-size:25px;
+    color: darkgray;
+}
+
+hr{
+    border: 1.8px solid ;
+    margin-left: 5%;
+    margin-right: 5%;
+    color:darkgray;
+}
+
+.list{
+    color:rgb(69, 68, 68);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+ul {
+    list-style-type: '-';
+    font-size: 20px; 
+  }
+
+ol{
+    list-style-type: none;
+  }
+
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
