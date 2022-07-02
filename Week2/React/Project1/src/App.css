@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+.title {
+  margin-left: 40px;
+  /* margin-bottom: 20px; */
+  color: azure;
+}
+
+.movie {
+  margin: 13px;
+  margin-bottom: 60px;
+  padding: 10px;
+  display: block;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  background-color: #1b1a1a;
+}
+
+.info {
+  color: white;
+  display: block;
+  font-size: small;
+}
+
+button {
+  border-radius: 5px;
+  font-size: medium;
+  background-color: #282727;
+  border-color: #282727;
+  color: white;
+  margin: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+
+  /* display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap; */
+}
+.movie:hover {
+  box-shadow: 0 0 8px 3px #eaf0f7;
+}
+img {
+  /* width: 350px; */
+  width: 100%;
+  padding: 10px 2px;
+  margin: 0 auto;
+  height: 300px;
+  width: 250px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+.App {
+  background: linear-gradient(to right, #070707, #2c2b2b);
+}

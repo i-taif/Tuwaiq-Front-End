@@ -47,12 +47,13 @@ stringNumbers.forEach(function(item){
  })
  console.log(`the total number under 4000 of ${stringNumbers} is  : ${totalNumbersUnder4000}`)*/
 
-/*const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let times100 =[];
-times100=nums.map(item => item*100)
+const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+times100=nums.map(item => {
+   return item%2==0 && item%3!=0 &&item%5!=0
+})
 console.log(`[ ${times100}]`)
 
-const iAS = ['Sara', 'Abdullah', 'Ali', 'Khan'];
+/*const iAS = ['Sara', 'Abdullah', 'Ali', 'Khan'];
 let capitalizedIAs = [];
 capitalizedIAs=iAS.map(item => item.toUpperCase())
 console.log(`[${capitalizedIAs}]`)
