@@ -43,7 +43,7 @@ export default function Body() {
       img: Breaking,
     },
     {
-      title: "How to Get Away wuth murder",
+      title: "How to Get Away with murder",
       story:
         "Brilliant criminal defense attorney and low professor Annalise Keating",
       year: "2014-2020",

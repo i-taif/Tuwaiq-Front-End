@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Inter:wght@300;400;500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  min-height: 100vh;
+  background-color: #e1cbe1;
+  padding: 0px;
+  margin: 0px;
+}
+
+.list,
+h1 {
+  font-family: "Arima", cursive;
+  font-size: large;
+  color: #303a52;
+}
+
+.todo {
+  margin-left: 50%;
+  margin-top: -35%;
+}
+img {
+  width: 50%;
+  margin-left: 0px;
+}
+
+button {
+  background-color: #5d5194;
+  padding: 8px;
+  margin: 15px;
+  border-color: #5d5194;
+  color: #e1cbe1;
+  border-radius: 6px;
+}
+
+input {
+  background-color: #8b8d93;
+  padding: 8px;
+  border-color: #8b8d93;
+  border-radius: 6px;
+}
+input:hover {
+  border-color: #5d5194;
+}
+button:hover {
+  background-color: #a07ba0;
+  color: #5d5194;
+}

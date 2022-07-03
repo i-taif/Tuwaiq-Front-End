@@ -1,0 +1,20 @@
+img{
+    width: 300px;
+    height: 200px;
+    margin: 80px;
+    justify-content: center;
+}
+button{
+    padding: 10px;
+    background-color: rgb(35, 36, 36);
+    border-color: aliceblue;
+    padding: 10px;
+}
+
+.img{
+    justify-content: center;
+    border-color: rgb(12, 14, 14);
+    border-radius: 90px;
+    background-color: rgb(169, 179, 179);
+    margin: 150px;
+}

@@ -7,7 +7,7 @@
 .title {
   margin-left: 40px;
   /* margin-bottom: 20px; */
-  color: azure;
+  color: rgb(205, 194, 67);
 }
 
 .movie {
@@ -30,7 +30,7 @@
 button {
   border-radius: 5px;
   font-size: medium;
-  background-color: #282727;
+  background-color: rgb(205, 194, 67);
   border-color: #282727;
   color: white;
   margin: 20px;
