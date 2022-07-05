@@ -1,5 +1,6 @@
 // import React, { useEffect, useState }  from "react";
-import Movie from "./movie.js";
+import { Row, Container } from "react-bootstrap";
+import Shows from "./showList";
 import GOT from "../images/GOT.webp";
 import Peaky from "../images/peaky.jpg";
 import Succession from "../images/Succession.jpg";
@@ -9,9 +10,8 @@ import HTGAWM from "../images/HTGAWM.jpg";
 import SUITS from "../images/suits.jpg";
 import Friends from "../images/friends.jpg";
 
-
 export default function Body(props) {
-  const movies = [
+  const shows = [
     {
       title: "Game Of Thrones",
       story:
@@ -75,11 +75,25 @@ export default function Body(props) {
   // },[searsh])
 
   // const movieList = movieSearch.map((movies) => <Movie movi={movies} />);
-  const movieList = movies.map((movies) => <Movie movi={movies} />);
-  return <div class="body">
-     {/* <input placeholder='search'  onChange={Change}/>
-        <button onClick={useEffect}>Search</button> */}
-    {movieList}
-    
-    </div>;
+  const showList = shows.map((show) => <Shows show={show} />);
+  return (
+    <div class="body">
+      <Container>
+        {/* <input placeholder='search'  onChange={Change}/>
+        <button onClick={useEffect}>Search</button>  */}
+        <Row> {showList}</Row>
+      </Container>
+      {/* <Container>
+        <Row>
+          <Col sm={8}>sm=8</Col>
+          <Col sm={4}>sm=4</Col>
+        </Row>
+        <Row>
+          <Col sm>sm=true</Col>
+          <Col sm>sm=true</Col>
+          <Col sm>sm=true</Col>
+        </Row>
+      </Container> */}
+    </div>
+  );
 }
