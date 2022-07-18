@@ -76,10 +76,11 @@ export default function Body(props) {
 
   // const movieList = movieSearch.map((movies) => <Movie movi={movies} />);
   const movieList = movies.map((movies) => <Movie movi={movies} />);
-  return <div class="body">
+  return 
+  <div class="body">
      {/* <input placeholder='search'  onChange={Change}/>
         <button onClick={useEffect}>Search</button> */}
     {movieList}
     
-    </div>;
+  </div>;
 }
